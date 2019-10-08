@@ -1,0 +1,23 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+NUMS	test4/main.c	2;"	d	language:C	file:
+Pfun	test4/main.h	/^typedef void(*Pfun)(int a[],int b);$/;"	t	language:C++
+Pfun	test6/main.h	/^typedef void(*Pfun)();$/;"	t	language:C++
+compar	test3/fun.c	/^int compar(const void *a,const void *b)$/;"	f	language:C	signature:(const void *a,const void *b)
+compar	test4/mysort.c	/^int compar(const void *a,const void *b)$/;"	f	language:C	signature:(const void *a,const void *b)
+get_my_time	test3/fun.c	/^long int get_my_time(int b[])$/;"	f	language:C	signature:(int b[])
+get_qsort_time	test3/fun.c	/^long int get_qsort_time(int a[])$/;"	f	language:C	signature:(int a[])
+get_time	test4/gettime.c	/^long int get_time(Pfun p,int a[],int b)$/;"	f	language:C	signature:(Pfun p,int a[],int b)
+get_time	test6/filetime.c	/^long int get_time(Pfun p)$/;"	f	language:C	signature:(Pfun p)
+main	test3/main.c	/^int main()$/;"	f	language:C
+main	test4/main.c	/^int main(void)$/;"	f	language:C	signature:(void)
+main	test6/main.c	/^int main()$/;"	f	language:C
+main	test8/main.c	/^int main(void)$/;"	f	language:C	signature:(void)
+themysort	test4/mysort.c	/^void themysort(int b[],int num)$/;"	f	language:C	signature:(int b[],int num)
+theqsort	test4/mysort.c	/^void theqsort(int a[],int num)$/;"	f	language:C	signature:(int a[],int num)
+withf	test6/readwrite.c	/^void withf()$/;"	f	language:C
+withoutf	test6/readwrite.c	/^void withoutf()$/;"	f	language:C
